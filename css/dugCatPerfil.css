@@ -1,221 +1,30 @@
-body {
-    background-color: #FFEEDF;
-    color:#494331;
-}
 
-/** Encabezado */
-.logoImg {
-    width: 350px;
-}
-
-.logo {
-    background-color: white;
-    width: 100%;
-}
-
-.nombreLogo {
-    font-size: 250px;
-    font-family: 'Jolly Lodger', cursive;
-}
-
-.linkContacto {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-/** Barra de Menu */
-
-#menu {
-    background-color: #C9C971;
-    font-size: 30px;
-    padding: 10px;
-}
-
-.dropdown-menu {
-    background-color: #C9C971;
-    width: 300px;
-    border: none;
-}
-
-.dropdown-item {
-    font-size: 30px;
-    padding: 10px;
-}
-
-#der {
-    position: absolute;
-    right: 20px;
-}
-
-.paraM {
-    visibility: hidden;
-}
 
 /** Cuerpo de pagina */
-.text {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 150px;
-    font-family: 'Jolly Lodger', cursive;
-}
-
-/** Carrousel */
-
-#demo {
-    margin: auto;
-    width: 80%;
-}
-
-/** Pie de pagina */
-li{
-    list-style: none;
-}
-
-.pieDePag{
-    background-color: #C9C971;
-}
-.tabpieDePag{
-    margin-top: 60px;
-    margin-left: 60px;
-    width: 100%;
-    text-align: center;
-}
-
-.secP{
-    text-align: left;
-}
-
-.tit1{
-    font-size: 20px;
-    font-weight: bold;
-}
-
-.masInf{
-    vertical-align: center;
-}
-
-.listaInf{
-    display: inline;
-    margin-right: 35px;
-}
-
-.contac{
-    vertical-align: top;
-}
-
-.iconos{
-    height: 50px;
-}
-
-/*! Para hacerlo responsive */
-@media (max-width: 912px) {
-
-    .logoImg {
-        width: 250px;
-    }
-
-    .nombreLogo {
-        font-size: 125px;
-    }
-
-    #menu {
-        font-size: 25px;
-    }
-
-    .dropdown-menu {
-
-        width: 250px;
-    }
-
-    .dropdown-item {
-        font-size: 20px;
-    }
-
-}
-
-@media (max-width:414px) {
-    .logoImg {
-        margin: auto;
-        width: 180px;
-    }
-    .linkContacto {
-        font-size: 15px;
-    }
-    .nombreLogo {
-        font-size: 70px;
-    }
-
-    #menu {
-        font-size: 15px;
-    }
-
-    .dropdown-menu {
-        width: 250px;
-    }
-    
-    .dropdown-item {
-        font-size: 10px;
-    }
-
-    .text {
-        text-align: center;
-        font-size: 70px;
-        font-family: 'Jolly Lodger', cursive;
-    }
-
-    .pieDePag{
-        font-size: 15px;
-    }
-
-}
-
-
-.divFormulario{
-    width: 700px;
-    height: 550px;
-    margin-top: 60px;
-    margin-left: 10px;
-    background-color: #C9C971;
-    padding: 20px;
-}
-label{
-    padding: 7px;
-    font-weight: bold;
-    font-size: 25px;
-}
-.input1{
-    width: 300px;
-    margin-top: 20px;
-    float:right;
-}
-.rad1{
-    margin-top: 20px;
-    margin-left: 80px;
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.botForm{
-    margin-top: 10px;
-    width: 150px;
-    padding: 10px;
-    margin-left: 250px;
-    font-size: 25px;
-    font-weight: bold;
-}
 
 .foto{
     width: 600px;
     position: absolute;
-    top:500px;
+    top:350px;
     right:0px;
 }
 
-a{
-    text-decoration: none;
-    color:#494331;
+/** Formulario */
+
+#form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #C9C971;
 }
+
+
+
+
+/*! Para hacerlo responsive */
+@media (max-width:1200px) {
+    .foto{
+        display: none;
+    }
+}
+
+

@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todas</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/dugCatBase.css">
+    <title>DugCat</title>
 </head>
 <body>
-    <h1>Todas</h1>
+    <!-- Encabezado -->
+    <table class="logo">
+        <tr>
+            <td><a href="paginaPrincipal.html"><img src="imgs/logo.png" class="logoImg"></a></td>
+            <td class="nombreLogo">DugCat</td>
+            
+        </tr>
+    </table>
+    <div ></div>
+
+    <!-- Barra de Menu -->
+    <nav class="navbar navbar-expand-sm navbar-light" id="menu">
+        <div class="container-fluid">
+            <!-- Esta clase oculta todo en resoluciones pequeñas -- collapse navbar-collapse -->
+            <div  id="collapsibleNavbar" >
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Nuestras Mascotas</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="todas.html" >Todas</a></li>
+                            <li><a class="dropdown-item" href="personalizado.html">Personalizado</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item" id="linkContacto">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item" id="der">
+                        <a class="nav-link" href="perfil.html">Perfil</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
