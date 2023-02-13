@@ -18,14 +18,7 @@ body {
     font-family: 'Jolly Lodger', cursive;
 }
 
-.linkContacto {
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-}
+
 
 /** Barra de Menu */
 
@@ -51,9 +44,11 @@ body {
     right: 20px;
 }
 
-.paraM {
-    visibility: hidden;
+#contacto{
+    position: absolute;
+    right: 100px;
 }
+
 
 /** Cuerpo de pagina */
 .text {
@@ -165,6 +160,29 @@ li{
         text-align: center;
         font-size: 70px;
         font-family: 'Jolly Lodger', cursive;
+    }
+    .tit1{
+        font-size: 15px;
+    }
+    .pieDePag{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .iconos{
+        height: 15px;
+    }
+
+    .tabpieDePag{
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .listaInf{
+        display: inline;
+        margin-right: 5px;
     }
 
 }
