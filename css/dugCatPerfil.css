@@ -1,22 +1,30 @@
-
-
 /** Cuerpo de pagina */
 
 .foto{
-    width: 600px;
+    width: 500px;
     position: absolute;
-    top:350px;
+    top:450px;
     right:0px;
 }
 
 /** Formulario */
 
+
 #form{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     background-color: #C9C971;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
 }
 
+#nom,#ap,#correo,#contra{
+    width: 600px;
+}
 
 
 

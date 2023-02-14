@@ -1,0 +1,18 @@
+
+
+/** Formulario */
+
+#form{
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #C9C971;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnForm{
+    margin-top: 20px;
+}

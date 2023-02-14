@@ -1,5 +1,8 @@
 body {
-    background-color: #FFEEDF;
+    background: #DFC2F2;
+	background-image: linear-gradient( to right, #ffffb3,#ffe6e6);
+	background-attachment: fixed;	
+	background-size: cover;
     color:#494331;
 }
 
@@ -17,8 +20,6 @@ body {
     font-size: 250px;
     font-family: 'Jolly Lodger', cursive;
 }
-
-
 
 /** Barra de Menu */
 
